@@ -9,3 +9,10 @@
 nav{
     display: flex;
 }
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.a {
+    color: #FD6E0A;
+}
