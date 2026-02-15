@@ -94,6 +94,7 @@ ul  {
     color: #181818;
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 .about-descrip {
     font-size: 18px;
@@ -108,7 +109,10 @@ ul  {
 }
 .about-items {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+.item-description {
+    font-weight: 600;
 }
 /* main styles */
 .main {
