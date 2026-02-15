@@ -100,6 +100,7 @@ ul  {
     font-size: 18px;
     font-weight: 400;
     color: #757575;
+    margin-bottom: 30px;
 }
 .about {
     border-radius: 10px;
@@ -113,6 +114,14 @@ ul  {
 }
 .item-description {
     font-weight: 600;
+}
+.item-description a{
+    text-decoration: none;
+    color: #181818;
+}
+.item-description a:hover{
+    text-decoration: underline;
+    color: red;
 }
 /* main styles */
 .main {
