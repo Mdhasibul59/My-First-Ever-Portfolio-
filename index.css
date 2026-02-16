@@ -2,9 +2,8 @@
 /* Nav Styles */
 .header {
     background-image: url(images/developer.png), url(images/header_bg.png);
-    background-repeat: no-repeat;
     background-position: top left, right bottom;
-    width: auto;
+    background-repeat: no-repeat;
 }
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
@@ -94,7 +93,7 @@ ul  {
     color: #181818;
     font-size: 35px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .about-descrip {
     font-size: 18px;
@@ -128,3 +127,54 @@ ul  {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+
+/* what I do styles */
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+.skills-items {
+    width: 250px;
+    height: 270px;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 30px 30px;
+    margin-right: 20px;
+    background-color: #FFF8F3;
+    justify-content: center;
+}
+.skills-heading {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.skills-descript {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*Resume Section styles */
+.resume {
+    margin-top: 120px;
+}
+.resume-head {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+
