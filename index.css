@@ -73,6 +73,16 @@ ul  {
 .btn-cv {
     margin-right: 20px;
 }
+.contact-btn {
+    border: none;
+    background-color: transparent;
+    padding: 18px 36px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #FD6E0A;
+    font-size: 20px;
+    border: solid black 1px;
+}
 /* shared styles */
 
 .text-center {
