@@ -35,7 +35,9 @@ ul  {
     display: flex;
     align-items: center;
 }
-
+nav ul li .link-color {
+    color: #181818;
+}
 /* banner styles */
 .banner {
     display: flex;
