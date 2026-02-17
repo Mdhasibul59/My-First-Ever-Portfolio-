@@ -70,8 +70,17 @@ ul  {
     height: 60px;
     width: 585px;
 }
+.btn-cv {
+    margin-right: 20px;
+}
 /* shared styles */
-.dark-2 {
+
+.text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dark-2 .experience-title {
     color: #474747;
 }
 .btn-primary {
@@ -82,6 +91,7 @@ ul  {
     font-weight: 700;
     color: white;
     font-size: 20px;
+    border: solid black 1px;
 }
 .sceondary-bg {
     background-color: #FFF8F3;
@@ -89,6 +99,10 @@ ul  {
 
 
 /* main part styles */
+.main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .about-title {
     color: #181818;
     font-size: 35px;
@@ -123,10 +137,6 @@ ul  {
     color: red;
 }
 /* main styles */
-.main {
-    max-width: 1140px;
-    margin: 0 auto;
-}
 
 
 /* what I do styles */
@@ -167,6 +177,10 @@ ul  {
 .resume {
     margin-top: 120px;
 }
+.resume-head-div{
+    margin-bottom: 70px;
+    margin-top: 100px;
+}
 .resume-head {
     color: #181818;
     font-size: 35px;
@@ -176,5 +190,80 @@ ul  {
     margin-bottom: 30px;
     margin-top: 50px;
 }
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.experience-description {
+    color: #757575;
+}
+.experience-sub-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume hr {
+    margin: 30px 5px;
+}
+.experience-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-column-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-download-cv {
+    margin-top: 50px;
+    border: solid black 1px;
+}
 
 
+/* Footer Part */
+.footer {
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 110px;
+}
+.footer-container {
+    display: flex;
+    gap: 110px;
+}
+.footer-column {
+    width: 50%;
+}
+.footer form input[type="text"], .footer form input[type="email"], .footer form textarea {
+    height: 45px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 2px 20px;
+    margin-bottom: 24px;
+    border: none ;
+}
+.footer-submit-btn {
+    border: solid black 1px;
+    background-color: #FD6E0A;
+    padding: 10px 36px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+}
+.footer-column-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.footer-column-description {
+    color: #474747;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.footer-contact-icon {
+    display: flex;
+    gap: 20px;
+}
