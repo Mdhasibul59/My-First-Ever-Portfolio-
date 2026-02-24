@@ -4,6 +4,7 @@
     background-image: url(images/developer.png), url(images/header_bg.png);
     background-position: top left, right bottom;
     background-repeat: no-repeat;
+    
 }
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
@@ -150,12 +151,18 @@ nav ul li .link-color {
 }
 /* main styles */
 
+/* Optional */
+.hide{
+    display: none;
+}
+
 
 /* what I do styles */
 
 .skills {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 .skills-items {
     width: 250px;
@@ -279,3 +286,11 @@ nav ul li .link-color {
     display: flex;
     gap: 20px;
 }
+@media screen and (max-width: 576px) {
+    .skills, .resume-container, .footer {
+        flex-direction: column;
+    }
+    .footer {
+        padding: 0;
+    }
+    }
