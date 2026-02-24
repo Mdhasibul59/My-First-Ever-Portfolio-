@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    width: 100%;
+    height: fit-content;
+}
+
 /* Nav Styles */
 .header {
     background-image: url(images/developer.png), url(images/header_bg.png);
@@ -242,13 +248,15 @@ nav ul li .link-color {
 
 /* Footer Part */
 .footer {
+    max-width: 100%;
     background: #FFF8F3;
-    padding: 130px 230px;
-    margin-top: 110px;
+    padding: 5%;
+    margin-top: 10%;
 }
 .footer-container {
     display: flex;
-    gap: 110px;
+    justify-content: center;
+    align-items: center;
 }
 .footer-column {
     width: 50%;
@@ -287,10 +295,25 @@ nav ul li .link-color {
     gap: 20px;
 }
 @media screen and (max-width: 576px) {
-    .skills, .resume-container, .footer {
+    .skills-items {
+        margin-bottom: 5%;
+    }
+    .footer-container {
+        display: flex;
+    }
+    .footer-container, .footer-column{
+        margin-bottom: 20%;
+    }
+    .skills, .resume-container, .footer-container {
         flex-direction: column;
     }
-    .footer {
-        padding: 0;
+    .resume-column-title {
+        text-align: center;
     }
+    .experience {
+        text-align: center;
     }
+    .about {
+        max-width: 576px;
+    }
+}
