@@ -145,7 +145,7 @@ nav ul li .link-color {
     justify-content: space-around;
 }
 .item-description {
-    font-weight: 600;
+    font-weight: 500;
 }
 .item-description a{
     text-decoration: none;
@@ -301,7 +301,7 @@ nav ul li .link-color {
     .footer-container {
         display: flex;
     }
-    .footer-container, .footer-column{
+    .footer-column{
         margin-bottom: 20%;
     }
     .skills, .resume-container, .footer-container {
@@ -314,6 +314,11 @@ nav ul li .link-color {
         text-align: center;
     }
     .about {
-        max-width: 576px;
+        margin: 0;
+        padding: 0%
+        
+    }
+    .about-items {
+        flex-direction: column;
     }
 }
